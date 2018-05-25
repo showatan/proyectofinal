@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(31, 37, 80, 0.95);
+}
+.navbar-ancho{
+    min-height: 130px !important;
+    background-color: #FBF9E9;
+}
+.logo{
+    width: 150px;
+    align-content: center;
+}
+.img-social{
+    width: 40px;
+    
+}
+.area-sociales{
+    margin-bottom: 1rem;
+}
+.alto-nav{
+    background-color: rgba(31, 37, 80, 0.95);
+    width: 100% !important;
+    margin-top: 10px;
+    padding: 0px;
+    
+    
+}
+.blanco{
+    color: white;
+}
+.nopadding{
+    padding: 0px;
+}
+.sipadding{
+    padding: 5px;
+}
+.contenido{
+    min-height: 300px;
+    background-color: #FBF9E9;
+    margin-top: 10px;
+    padding: 5px;
+}
+.articulos{
+    background-color: lightgrey;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+.img-album{
+    width: 100% !important;
+}
+.publicaciones{
+    margin: 5px;
+    
+}
+.img-persona{
+    width: 50%;
+}
+#comentarios{
+    background-color: lightsteelblue;
+    border: 1px black solid;
+    width: 100%;
+}
+.busqueda{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

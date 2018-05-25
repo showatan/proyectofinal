@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src='js/bootstrap.min.js'></script>
+    <title>Musica Favorita</title>
+</head>
+<body class="">
+    <div class="container">
+        <!--parte del baner con el logo y redes sociales-->
+        <div class="row navbar-ancho">
+            <div class="col-xs-12 col-ms-12 col-md-4 col-lg-4 text-center">
+                <img src="img/music.png" alt="logomusica" class="logo">
+            </div>
+            <div class="col-xs-12 col-ms-12 col-md-5 col-lg-5 offset-md-3 offset-lg-3 text-center align-self-end area-sociales">
+                    <img src="img/logo-youtube.png" alt="youtube" class="img-rounded img-social">
+                    <img src="img/logo_facebook.png" alt="logo_facebook" class="img-rounded img-social">
+                    <img src="img/logo_instagram.png" alt="instagram" class="img-rounded img-social">
+                    <img src="img/logo-pinterest.gif" alt="pinteres" class="img-rounded img-social">
+                    <img src="img/logo-twitetr.jpg" alt="twitter" class="img-rounded img-social">                
+            </div>
+        </div>
+        <!--barra de navegacion-->
+        <nav class="alto-nav nopadding">
+            <ul class="nav extended justify-content-center flex-column nav-fill flex-sm-row nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link blanco" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link blanco" href="#">Artistas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link blanco" href="#">Grupos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link blanco" href="#">Top 10</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link blanco" href="#">Letras</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link blanco" href="#">Acordes</a>
+                </li>
+            </ul>
+        </nav>    
+
+        <!--contenido de la pagina-->
+        <div class="row contenido">
+            <div class="col-xs-12 col-ms-12 col-md-8 col-lg-8 articulos">
+                <div class="row publicaciones">
+                    <div class="col-xs-12 col-ms-12 col-md-4 col-lg-4 nopadding">
+                        <img src="img/lamacates.jpg" alt="malacates" class="img-album">
+                    </div>
+                    <div class="col-xs-12 col-ms-12 col-md-8 col-lg-8">
+                        <h3>Malacates Trebol Shop</h3>
+                        <p class="text-justify">Malacates es una banda de rock latino que hace fusión de ritmos que van desde el Ska hasta el Rock, Reggae y otros ritmos latinos. Actualmente es la banda más importante en su natal Guatemala y se ha presentado en Europa, Estados Unidos, México y toda Centroamérica.</p>
+                    </div>
+                    <div class="col-xs-12 col-ms-12 col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-xs-2 col-ms-2 col-md-2 col-lg-2 text-center align-self-center">
+                                <img src="img/logo-persona.png" alt="persona" class="img-persona">
+                            </div>
+                            <div class="col-xs-10 col-ms-10 col-md-10 col-lg-10 sipadding">
+                                <form>
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="comentarios" rows="2" placeholder="cometarios..."></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+
+                <div class="row publicaciones">
+
+                        <div class="col-xs-12 col-ms-12 col-md-8 col-lg-8">
+                            <h3>Viento En Contra</h3>
+                            <p class="text-justify">Viento en contra comenzó cerca de 1993 cuando Francisco Cabrera y Javier Ortiz se reunían en la casa de Édgar Pereira para ensayar algunos temas conocidos de la época. Al transcurrir el tiempo, el bajista, Antonio Colom, se unió a ellos y dieron su primera presentación en un bar de la ciudad de Guatemala en 1996.</p>
+                        </div>
+                        <div class="col-xs-12 col-ms-12 col-md-4 col-lg-4 nopadding">
+                            <img src="img/viento-contra.jpg" alt="malacates" class="img-album">
+                        </div>
+                        <div class="col-xs-12 col-ms-12 col-md-12 col-lg-12">
+                            <div class="row">
+                                <div class="col-xs-2 col-ms-2 col-md-2 col-lg-2 text-center align-self-center">
+                                    <img src="img/logo-persona.png" alt="persona" class="img-persona">
+                                </div>
+                                <div class="col-xs-10 col-ms-10 col-md-10 col-lg-10 sipadding">
+                                    <form>
+                                        <div class="form-group">
+                                            <textarea class="form-control" id="comentarios" rows="2" placeholder="cometarios..."></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+            </div>
+        <!--Area paara la busqueda-->    
+            <div class="offset-lg-1 offset-md-1 col-xs-12 col-ms-12 col-md-3 col-lg-3  articulos">
+                <form class="busqueda">
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">Search:</div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Buscar">
+                    </div>      
+                </form>
+        <!--Lista de busqueda-->
+                <div class="card busqueda">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Todo Tua Amor</li>
+                        <li class="list-group-item">PaqueteCuates</li>
+                        <li class="list-group-item">Quisiera</li>
+                        <li class="list-group-item">Para tu amor</li>
+                        <li class="list-group-item">To My love</li>
+                        <li class="list-group-item">Corriendo</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>
