@@ -1,0 +1,80 @@
+body{
+    background: url("../img/fondo-cosina.jpg");
+}
+.general-cont{
+    background-color: rgba(3, 59, 116, 0.70)
+}
+.columna-left{
+    border-right: 3px solid lightgreen;
+}
+.encabezado{
+    min-height: 100px !important;
+}
+h1{
+    color: white;
+}
+p{
+    color: rosybrown;
+}
+.separador{
+    border-top: 3px lightgreen solid;
+}
+.size-36{
+    font-size: 36px;
+}
+.contenido{
+    min-height: 200px;
+}
+.buscar{
+    min-height: 30px;
+    background-color: lightgray;
+    margin-top: 10px;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+.publicaciones{
+    min-height: 30px;
+    background-color: rgba(193, 66, 66, 0.55);
+    margin-top: 10px;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+.margintop{
+    margin-top: 5px;
+}
+.img-comida
+{
+    width: 100%;
+    height: 85%;
+}
+.titulo{
+    color: black;
+}
+h5{
+    color: rosybrown;
+
+}
+p{
+    color: white;
+}
+#comentario{
+    border: black solid 1px;
+    border-radius: 25px;
+}
+.coments{
+    background-color: lightgray;
+}
+.negro{
+    color: black;
+}
+.img-coments{
+    width: 36px;
+    height: 36px;
+}
+@media (max-width: 639px){
+    .columna-left{
+        border: none;
+    }
+}
